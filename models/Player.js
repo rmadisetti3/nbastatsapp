@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // Save a reference to the Schema constructor
 const Schema = mongoose.Schema;
 
-// Using the Schema constructor, create a new TweetSchema object
+// Using the Schema constructor, create a new PlayerSchema object
 const PlayerSchema = new Schema({
   content: {
     type: String,
